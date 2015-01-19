@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html data-ng-app="myApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Brij Mohan Lal Srivastava :: Academic Profile</title>
+
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="styles/font-awesome.min.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <script src="scripts/lib/angular.min.js"></script>
+    <script src="scripts/lib/angular-route.min.js"></script>
+    <script src="scripts/lib/angular-animate.min.js"></script>
+    <script src="scripts/lib/jquery.min.js"></script>
+    <script src="scripts/lib/bootstrap.min.js"></script>
+    <script src="scripts/lib/ui-bootstrap-tpls-0.11.2.min.js"></script>
+    <script src="scripts/main.js"></script>
+</head>
+<body data-ng-controller="mainController">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"></a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#projects"><i class="fa fa-code"></i> Projects</a></li>
+                <li><a href="#research"><i class="fa fa-line-chart"></i> Research</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="main">
+
+        <!-- angular templating -->
+        <!-- this is where content will be injected -->
+        <div ng-view></div>
+
+    </div>
+
+    <footer class="text-center">
+        <p>Copyright &copy; 2014</p>
+    </footer>
+</body>
+</html>
