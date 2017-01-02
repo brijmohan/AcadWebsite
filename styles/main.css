@@ -1,0 +1,5 @@
+.panel-default > .panel-heading {
+    background: none;
+    background-color: #2196f3;
+    color: #fff;
+}

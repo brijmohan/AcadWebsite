@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Brij Mohan Lal Srivastava :: Home Page</title>
+</head>
+<body>
+	Brij is a student pursuing MS by Research from IIIT-Hyderabad.
+	More info coming soon...
+	<?php echo date("l jS \of F Y h:i:s A");  ?>
+</body>
+</html>
